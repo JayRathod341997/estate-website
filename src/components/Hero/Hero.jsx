@@ -19,13 +19,13 @@ const Hero = () => {
             </h1>
           </div>
           <div className="flexColStart des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span className="secondaryText">Find a variety of properties that suit you very easilty</span>
+            <span className="secondaryText">Forget all difficulties in finding a residence for you</span>
           </div>
 
           <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
-            <input type="text" />
+            <input type="text" placeholder="Search for the location"/>
             <button className="button">Search</button>
           </div>
 
@@ -35,21 +35,21 @@ const Hero = () => {
                 <CountUp start={8850} end={8876} duration={4} />
                 <span>+</span>
               </span>
-              <span>Premium Products</span>
+              <span className="secondaryText">Premium Products</span>
             </div>
             <div className="flexColStart stat">
               <span>
                 <CountUp start={5360} end={5468} duration={4} />
                 <span>+</span>
               </span>
-              <span>Happy Customers</span>
+              <span className="secondaryText">Happy Customers</span>
             </div>
             <div className="flexColStart stat">
               <span>
                 <CountUp end={7} />
                 <span>+</span>
               </span>
-              <span>Award Winning</span>
+              <span className="secondaryText">Award Winning</span>
             </div>
           </div>
         </div>
