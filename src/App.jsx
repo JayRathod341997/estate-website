@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <div>
         <div className="white-gradient" />
-        <Header />
-        <Hero />
+        {/* <Header />
+        <Hero /> */}
       </div>
       <Companies />
       <Residencies />
