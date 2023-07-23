@@ -6,20 +6,21 @@ import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
 import Contact from "./components/Contact/Contact";
 import GetStarted from "./components/GetStarted/GetStarted";
-
+import Footer from "./components/Contact/Footer";
 function App() {
   return (
     <div className="App">
       <div>
         <div className="white-gradient" />
         <Header />
-        {/* <Hero /> */}
+        <Hero />
       </div>
-      {/* <Companies />
+      <Companies />
       <Residencies />
       <Value />
       <Contact />
-      <GetStarted/> */}
+      <GetStarted />
+      <Footer />
     </div>
   );
 }
